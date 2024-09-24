@@ -851,21 +851,73 @@ main {
     font-weight: bold;
   }
 
-  @media (min-width: 600px) {
+ /* Responsive larger than 315px screen */
+@media (min-width: 315px) {
     .skills-list {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns for screens 600px and wider */
+      grid-template-columns: repeat(1, 1fr); /* 1 column for screens 315px and wider */
     }
   }
 
-  @media (min-width: 900px) {
+  /* Responsive larger than 390px screen */
+  @media (min-width: 390px) {
     .skills-list {
-      grid-template-columns: repeat(3, 1fr); /* 3 columns for screens 900px and wider */
+      grid-template-columns: repeat(1, 1fr); /* 1 column for screens 390px and wider */
     }
   }
 
-  @media (min-width: 1200px) {
+  /* Responsive larger than 412px screen */
+  @media (min-width: 412px) {
     .skills-list {
-      grid-template-columns: repeat(4, 1fr); /* 4 columns for screens 1200px and wider */
+      grid-template-columns: repeat(1, 1fr); /* 1 column for screens 412px and wider */
+    }
+  }
+
+  /* Responsive larger than 414px screen */
+  @media (min-width: 414px) {
+    .skills-list {
+      grid-template-columns: repeat(1, 1fr); /* 1 column for screens 414px and wider */
+    }
+  }
+
+  /* Responsive larger than 430px screen */
+  @media (min-width: 430px) {
+    .skills-list {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for screens 430px and wider */
+    }
+  }
+
+  /* Responsive larger than 450px screen */
+  @media (min-width: 450px) {
+    .skills-list {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for screens 450px and wider */
+    }
+  }
+
+  /* Responsive larger than 580px screen */
+  @media (min-width: 580px) {
+    .skills-list {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for screens 580px and wider */
+    }
+  }
+
+  /* Responsive larger than 768px screen */
+  @media (min-width: 768px) {
+    .skills-list {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns for screens 768px and wider */
+    }
+  }
+
+  /* Responsive larger than 1024px screen */
+  @media (min-width: 1024px) {
+    .skills-list {
+      grid-template-columns: repeat(4, 1fr); /* 4 columns for screens 1024px and wider */
+    }
+  }
+
+  /* Responsive larger than 1250px screen */
+  @media (min-width: 1250px) {
+    .skills-list {
+      grid-template-columns: repeat(4, 1fr); /* 4 columns for screens 1250px and wider */
     }
   }
 
