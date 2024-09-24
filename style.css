@@ -851,6 +851,24 @@ main {
     font-weight: bold;
   }
 
+  @media (min-width: 600px) {
+    .skills-list {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for screens 600px and wider */
+    }
+  }
+
+  @media (min-width: 900px) {
+    .skills-list {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns for screens 900px and wider */
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .skills-list {
+      grid-template-columns: repeat(4, 1fr); /* 4 columns for screens 1200px and wider */
+    }
+  }
+
 
 
 /*-----------------------------------*\
